@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Azeed</title>
+
+    <meta name="theme-name" content="Azeed" />
+
+
+    <link href="../assets/material/css/materialdesignicons.min.css" rel="stylesheet" />
+    <link href="../assets/css/simplebar.css" rel="stylesheet" />
+
+
+    <link id="main-css-href" rel="stylesheet" href="../assets/css/style.css" />
+
+    <link href="../assets/img/logo.png" rel="shortcut icon" />
+</head>
+
+
+<body class="navbar-fixed sidebar-fixed" id="body">
+    <div class="wrapper">
+
+        <aside class="left-sidebar sidebar-dark" id="left-sidebar">
+            <div id="sidebar" class="sidebar sidebar-with-footer">
+                <!-- Aplication Brand -->
+                <div class="app-brand">
+                    <a href="index.html">
+                        <img src="../assets/img/main-logo.png" alt="Azeed">
+                        <span class="brand-name">Azeed</span>
+                    </a>
+                </div>
+                <!-- begin sidebar scrollbar -->
+                <div class="sidebar-left" data-simplebar style="height: 100%;">
+                    <!-- sidebar menu -->
+                    <ul class="nav sidebar-inner" id="sidebar-menu">
+                        <li>
+                            <a class="sidenav-item-link" href="index.html">
+                                <i class="mdi mdi-home-outline"></i>
+                                <span class="nav-text">Dashboard</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="sidenav-item-link" href="orders.html">
+                                <i class="mdi mdi-shopping"></i>
+                                <span class="nav-text">Orders</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="sidenav-item-link" href="cashback.html">
+                                <i class="mdi mdi-settings-outline"></i>
+                                <span class="nav-text">Cashback Setup</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="sidenav-item-link" href="invoices.html">
+                                <i class="mdi mdi-file-document"></i>
+                                <span class="nav-text">Invoices</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="sidenav-item-link" href="clients.html">
+                                <i class="mdi mdi-account-outline"></i>
+                                <span class="nav-text">Clients</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="sidenav-item-link" href="products.html">
+                                <i class="mdi mdi-cube-outline"></i>
+                                <span class="nav-text">Products</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="sidenav-item-link" href="branches.html">
+                                <i class="mdi mdi-map-marker-outline"></i>
+                                <span class="nav-text">Branches</span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a class="sidenav-item-link" href="reports.html">
+                                <i class="mdi mdi-chart-pie"></i>
+                                <span class="nav-text">Reports</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="sidenav-item-link" href="transactions.html">
+                                <i class="mdi mdi-cart-outline"></i>
+                                <span class="nav-text">Transactions</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="sidenav-item-link" href="wallet.html">
+                                <i class="mdi mdi-wallet-outline"></i>
+                                <span class="nav-text">Wallet</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="sidenav-item-link" href="profile.html">
+                                <i class="mdi mdi-account-outline"></i>
+                                <span class="nav-text">Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="sidenav-item-link" href="#">
+                                <i class="mdi mdi-logout"></i>
+                                <span class="nav-text">Sign Out</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </aside>
+
+        <div class="page-wrapper">
+
+            <header class="main-header" id="header">
+                <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+                    <!-- Sidebar toggle button -->
+                    <button id="sidebar-toggler" class="sidebar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                    </button>
+
+                    <span class="page-title">Products Detail</span>
+
+                </nav>
+            </header>
+
+            <div class="content-wrapper">
+                <div class="content">
+
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12">
+                            <div class="card card-default">
+
+                                <div class="card-body client-info-card">
+                                    <div class="col-lg-4 col-md-6 col-xs-12 float-left mt-10-s">
+                                        <div class="circle-chart text-center">
+                                            <h5 class="table-title">Sales</h5>
+
+                                            <div id="radial-bar-chart-1"></div>
+
+                                            <div class="col-12">
+                                                <div class="col-md-6 col-xs-12 float-left">
+                                                    <h6 class="font-weight-600 light-blue">Apr Sales</h6>
+                                                    <p>225.600 Sar</p>
+                                                </div>
+                                                <div class="col-md-6 col-xs-12 float-left">
+                                                    <h6 class="font-weight-600 light-blue">May Sales</h6>
+                                                    <p>462.100 Sar</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-xs-12 second-chart float-left mt-10-s">
+                                        <div class="circle-chart2 text-center">
+                                            <h5 class="table-title light-blue-color">Orders</h5>
+                                            <div id="radial-bar-chart-2"></div>
+
+                                            <div class="col-12">
+                                                <div class="col-md-6 col-xs-12 float-left">
+                                                    <h6 class="font-weight-600 light-blue">Apr Sales</h6>
+                                                    <p>601</p>
+                                                </div>
+                                                <div class="col-md-6 col-xs-12 float-left">
+                                                    <h6 class="font-weight-600 light-blue">May Sales</h6>
+                                                    <p>950</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-xs-12 float-left mt-10-s">
+                                        <div class="circle-chart text-center">
+                                            <h5 class="table-title black-color">New Client</h5>
+                                            <div id="radial-bar-chart-3"></div>
+
+                                            <div class="col-12">
+                                                <div class="col-md-6 col-xs-12 float-left">
+                                                    <h6 class="font-weight-600 light-blue">Apr Sales</h6>
+                                                    <p>500</p>
+                                                </div>
+                                                <div class="col-md-6 col-xs-12 float-left">
+                                                    <h6 class="font-weight-600 light-blue">May Sales</h6>
+                                                    <p>580</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="card card-default">
+                                <div class="card-header">
+                                    <h2 class="table-title">Revenue</h2>
+                                </div>
+                                <div class="card-body client-info-card">
+                                    <div class="col-md-7 col-xs-12 float-left">
+                                        <div id="spline-area-1"></div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-12 float-left">
+                                        <h6 class="font-weight-600">380.181</h6>
+                                        <p class="chart-p green-color">
+                                            <i class="mdi mdi-arrow-top-right"></i>
+                                            +16.24 %
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="card card-default">
+                                <div class="card-header">
+                                    <h2 class="table-title">Cashback</h2>
+                                </div>
+                                <div class="card-body client-info-card">
+                                    <div class="col-md-7 col-xs-12 float-left">
+                                        <div id="spline-area-2"></div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-12 float-left">
+                                        <h6 class="font-weight-600">69.141</h6>
+                                        <p class="chart-p red-color">
+                                            <i class="mdi mdi-arrow-top-right"></i>
+                                            +9.24 %
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="card card-default">
+                                <div class="card-header">
+                                    <h2 class="table-title">Customers</h2>
+                                </div>
+                                <div class="card-body client-info-card">
+                                    <div class="col-md-7 col-xs-12 float-left">
+                                        <div id="spline-area-3"></div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-12 float-left">
+                                        <h6 class="font-weight-600">539.470</h6>
+                                        <p class="chart-p green-color">
+                                            <i class="mdi mdi-arrow-top-right"></i>
+                                            +13.24 %
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clearFix"></div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="card card-default">
+                                <div class="card-header">
+                                    <h2 class="table-title">Offline Payment</h2>
+                                </div>
+                                <div class="card-body client-info-card">
+                                    <div class="col-md-7 col-xs-12 float-left">
+                                        <div id="spline-area-4"></div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-12 float-left">
+                                        <h6 class="font-weight-600">380.181</h6>
+                                        <p class="chart-p green-color">
+                                            <i class="mdi mdi-arrow-top-right"></i>
+                                            +16.24 %
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="card card-default">
+                                <div class="card-header">
+                                    <h2 class="table-title">Online Payment</h2>
+                                </div>
+                                <div class="card-body client-info-card">
+                                    <div class="col-md-7 col-xs-12 float-left">
+                                        <div id="spline-area-5"></div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-12 float-left">
+                                        <h6 class="font-weight-600">69.141</h6>
+                                        <p class="chart-p red-color">
+                                            <i class="mdi mdi-arrow-top-right"></i>
+                                            +9.24 %
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="card card-default">
+                                <div class="card-header">
+                                    <h2 class="table-title">Visits</h2>
+                                </div>
+                                <div class="card-body client-info-card">
+                                    <div class="col-md-7 col-xs-12 float-left">
+                                        <div id="spline-area-6"></div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-12 float-left">
+                                        <h6 class="font-weight-600">539.470</h6>
+                                        <p class="chart-p green-color">
+                                            <i class="mdi mdi-arrow-top-right"></i>
+                                            +13.24 %
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/simplebar.min.js"></script>
+
+    <script src="../assets/js/actions.js"></script>
+
+    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/apexcharts.min.js"></script>
+    <script src="../assets/js/chart.js"></script>
+</body>
+
+</html>
