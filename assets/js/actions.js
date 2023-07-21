@@ -216,7 +216,7 @@ $(document).ready(function () {
   });
 
   for (let i = 1; i < 8; i++) {
-    $("#customCheck" + i).on('change', function (e) {
+    $(".true-checkbox #customCheck" + i).on('change', function (e) {
       $(this).attr("checked", e.target.checked)
       $(this).parent().toggleClass('active')
 
